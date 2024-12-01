@@ -1,0 +1,171 @@
+.roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+*{margin: 0;
+padding: 0 }
+
+body {
+    background-color: rgb(242, 239, 239);
+    font-family: "Roboto", serif;
+}
+{ }
+
+.article {
+    
+    width: 20%;
+    height: 100%;
+    background-color: white;
+}
+
+.aside {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-container{ 
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    
+    width: 99%;
+    height: 100%;}
+
+.imagen-aside{
+    width:  200px;
+    height: 200px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.title-aside{text-align: center;
+font-size: 45px;
+padding-bottom: 30px; }
+
+.detail-aside{text-align: center; 
+font-size: 14px;}
+
+.card-top-only{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid   #BEC1BB;
+}
+
+.card-top-only-1{
+    display: flex;
+    justify-content: left;
+    
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    }
+    
+.card-top-only-2{
+        display: flex;
+        justify-content:left;
+        padding-left: 5px;
+        color: dimgrey;
+        width: 50%;
+        height: 70px;
+        align-items:center;}
+
+.icono-top{
+    padding-left: 10px;
+    }   
+
+.card-top-text-nombre{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 100;
+    padding-left: 10px;
+    }   
+
+.font-gris-simple{
+    font-size: 10px;
+    font-weight: 100;
+    }   
+    
+.card-top-text-mensaje{
+        font-size: 10px;
+        font-weight: 100;
+    }   
+
+.marco-imagen-rte{
+        padding-left: 20px;
+    }   
+    
+.imagen-rte{
+        width:  40px;
+        height: 40px;
+        border-radius: 50px;
+}   
+
+.marco-btn_morado{
+    width:  100%;
+    height: 100px;
+    border: 1px solid   #BEC1BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.btn_morado{
+        width:  130px;
+        height: 35px;
+        background-color: rgb(183, 154, 210);
+        color: white;
+}
+.btn_morado:hover{
+    width:  130px;
+    height: 35px;
+    background-color: rgb(207, 193, 220);
+    color: white;
+}
+
+.btn_morado:active{
+    width:  130px;
+    height: 35px;
+    background-color: rgb(221, 216, 226);
+    color: white;
+}
+
+
+
+footer{
+    text-align: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,4 @@
+Paréntesis o "Paréntesis Redondos" ( )
+"Corchetes" o "paréntesis cuadrados" [ ]
+"Llaves" { }
+"Paréntesis angulares" < >
